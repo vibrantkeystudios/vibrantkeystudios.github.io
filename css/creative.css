@@ -153,6 +153,7 @@ header {
   text-align: center;
   color: white;
 }
+
 header .header-content {
   position: relative;
   text-align: center;
@@ -162,7 +163,6 @@ header .header-content {
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
 }
@@ -171,7 +171,7 @@ header .header-content .header-content-inner hr {
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
   font-size: 16px;
   margin-bottom: 50px;
 }
@@ -202,6 +202,7 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
 }
+
 .section-heading {
   margin-top: 0;
 }
@@ -407,4 +408,10 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+#logo {
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
