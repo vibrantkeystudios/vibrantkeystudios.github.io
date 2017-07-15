@@ -69,9 +69,6 @@ body, html {
   width: 50px;
 }
 
-.divider {
-  width: 90%;
-}
 
 /* Section One - About Us */
 
@@ -98,3 +95,5 @@ body, html {
   margin-left: 70px;
   margin-top: 35px;
 }
+
+/* Section One - Team */
