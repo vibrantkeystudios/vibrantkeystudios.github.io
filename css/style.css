@@ -56,8 +56,21 @@ body, html {
   font-size: 24px;
 }
 
+.title {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.title-container {
+  text-align: center;
+}
+
 .break {
   width: 50px;
+}
+
+.divider {
+  width: 90%;
 }
 
 /* Section One - About Us */
@@ -84,13 +97,4 @@ body, html {
 .aboutus-image-container {
   margin-left: 70px;
   margin-top: 35px;
-}
-
-.aboutus-title {
-  font-size: 50px;
-  text-transform: uppercase;
-}
-
-.aboutus-title-container {
-  text-align: center;
 }
