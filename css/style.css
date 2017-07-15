@@ -75,9 +75,10 @@ body, html {
   font-size: 16px;  
 }
 
-.logo {
-  margin-left: 30px;
-  max-height: 370px;
+.aboutus-team {
+  height: 350px;
+  margin-right: 30px;
+  margin-top: 20px;
 }
 
 .aboutus-image-container {
