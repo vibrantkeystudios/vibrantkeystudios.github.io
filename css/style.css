@@ -69,6 +69,19 @@ body, html {
   width: 50px;
 }
 
+@media (max-width: 568px) {
+  .ptext span {
+    font-size: 36px;
+  }
+
+  .ptext p {
+    font-size: 20px;
+  }
+
+  .ptext {
+    top: 30%;
+  }
+}
 
 /* Section One - About Us */
 
@@ -94,6 +107,28 @@ body, html {
 .aboutus-image-container {
   margin-left: 70px;
   margin-top: 35px;
+}
+
+@media(max-width: 568px) {
+  .aboutus-content {
+    text-align: center;
+  }
+
+  .aboutus-image-container {
+    text-align: center;
+  }
+
+  .aboutus-team {
+    height: 150px;
+  }
+
+  .aboutus .title {
+    font-size: 36px;
+  }
+
+  .aboutus-header {
+    font-size: 28px;
+  }
 }
 
 /* Section One - Team */
